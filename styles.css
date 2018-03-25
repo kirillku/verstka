@@ -16,10 +16,21 @@ body {
 header, nav {
   background: #FD739C;
   color: white;
-  width: 100%;
-  display: inline-block;
 }
 
-h1, h2 {
+nav {
+  padding-bottom: 2em;
+}
+
+header {
+  padding: 2em 0;
+  margin-bottom: 3em;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+header, h1, h2 {
   font-family: Helvetica, Arial, sans-serif;
 }
